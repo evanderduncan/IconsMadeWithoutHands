@@ -9,21 +9,30 @@ html, body {
     background-color: #f4f4f4;
 }
 
+/* Flexbox container for side-by-side layout */
 .content-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; 
+    gap: 20px; /* Space between image and sketch */
     margin-top: 20px;
 }
 
+/* Painting (image) styling */
 .painting {
-    max-width: 40%; 
+    max-width: 40%; /* Adjust size */
     height: auto;
     border-radius: 10px;
 }
 
+/* p5.js sketch */
+#canvas-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 canvas {
     display: block;
-    max-width: 50%; 
 }
