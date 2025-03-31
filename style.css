@@ -18,11 +18,11 @@ html, body {
     margin-top: 20px;
 }
 
-/* Painting (image) styling */
+
 .painting {
-    max-width: 40%; /* Adjust size */
+    max-width: 40%; 
     height: auto;
-    border-radius: 10px;
+    
 }
 
 
