@@ -9,25 +9,23 @@ html, body {
     background-color: #FFFFFF;
 }
 
-
 .content-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px; 
     margin-top: 20px;
+    width: 90%; /* Ensure it doesn’t expand too much */
+    max-width: 1200px; /* Prevent overly wide layout */
 }
-
 
 .painting {
     max-width: 40%; 
     height: auto;
-    
 }
 
-
 #canvas-container {
-    width: 80%;
+    width: 40%;  /* Adjust to prevent it from being too wide */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,4 +33,5 @@ html, body {
 
 canvas {
     display: block;
+    max-width: 100%;
 }
